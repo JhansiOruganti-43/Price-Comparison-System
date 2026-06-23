@@ -6,7 +6,7 @@ import {
 } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from 'recharts';
 
-const API_BASE = 'https://temp-url-will-come-later.onrender.com/api';
+const API_BASE = 'https://comparekart-api.onrender.com/api';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('dashboard');
