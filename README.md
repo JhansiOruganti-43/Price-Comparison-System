@@ -1,6 +1,33 @@
 # AI-Based Product Price Comparison and Recommendation System
 
 An AI-powered smart shopping assistant that scans multiple online shopping platforms (Amazon, Flipkart, Myntra, Ajio, Meesho), identifies identical products using NLP (TF-IDF + Cosine Similarity), performs sentiment analysis on product reviews, and recommends the best overall deal using a multi-criteria weighted scoring algorithm.
+---
+
+## Project Workflow
+
+### 1. Search Product
+Users enter a product name in the search bar.
+<img width="772" height="1020" alt="Screenshot 2026-06-23 175824" src="https://github.com/user-attachments/assets/17c053ed-ff0c-4a19-8771-de2c8e42ed17" />
+
+
+### 2. Fetch Product Data
+The Flask backend collects product information from multiple e-commerce platforms including Amazon, Flipkart, Meesho, Myntra, and Ajio.
+<img width="772" height="1019" alt="Screenshot 2026-06-23 175834" src="https://github.com/user-attachments/assets/3028feda-2011-4558-9cfe-62df7bfcd83e" />
+
+
+### 3. AI-Based Product Matching
+Products with different naming formats are grouped together using TF-IDF and Cosine Similarity.
+<img width="844" height="906" alt="Screenshot 2026-06-23 181037" src="https://github.com/user-attachments/assets/54740fb7-5431-449f-8ceb-783976507703" />
+
+
+### 4. Compare & Recommend
+The system compares prices, ratings, discounts, delivery fees, and customer sentiment to identify the best-value deal.
+<img width="416" height="643" alt="image" src="https://github.com/user-attachments/assets/a6cef6f6-7629-4d4a-9dc3-90df01bde0a7" />
+
+
+### 5. Search History & Analytics
+Searches are stored in SQLite and displayed in the dashboard for quick access and analytics.
+<img width="813" height="1019" alt="Screenshot 2026-06-23 180948" src="https://github.com/user-attachments/assets/1b7226c4-9859-4efb-bfc2-809ad23819e0" />
 
 ---
 
