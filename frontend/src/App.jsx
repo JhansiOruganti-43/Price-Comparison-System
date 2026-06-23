@@ -6,7 +6,7 @@ import {
 } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from 'recharts';
 
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = 'https://temp-url-will-come-later.onrender.com/api';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('dashboard');
