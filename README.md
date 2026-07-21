@@ -126,6 +126,3 @@ Where:
 - $S_{\text{delivery}} = 1 - \frac{DeliveryFee}{DeliveryFee_{\text{max}}}$
 - $S_{\text{sentiment}} = \frac{\text{Sentiment} + 1}{2}$
 
-## Latest Update
-
-Project documentation updated in July 2026.
